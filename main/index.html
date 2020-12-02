@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Home-Srinivasa PipeLine Solution</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="../images/tab-logo.png">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<header>
+  <nav>
+    <div class="wrapper">
+      <a href="../main/index.html"><img class="logo" src="../images/logo white-ren.png" alt="logo-img"></a>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="../main/index.html">Home</a></li>
+        <li>
+          <a href="#" class="desktop-item">Products</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Products</label>
+          <ul class="drop-menu">
+            <li><a href="../flowline/flowline.html">Flowline Plus (CPVC)</a></li>
+            <li><a href="../greenline/greenline.html">Greenline (UPVC)</a></li>
+            <li><a href="../drainline/drainline.html">Drainline (SWR)</a></li>
+            <li><a href="../terraline/terraline.html">Terraline (UDS)</a></li>
+            <li><a href="../column/column.html">Column Pipes</a></li>
+          </ul>
+        </li>
+        <li><a href="../gallery/gallery.html">Gallery</a></li>
+        <li><a href="../contact/contact.html">Contact Us</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+</header>
+
+<body>
+  <section class="banner">
+    <div class="text-box">
+      <h2>Best Quality at an <br /><span>Affordable Price!</span></h2>
+      <a class="abt-btn" href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+  <section class="home" id="about">
+    <div class="heading">
+      <h2>About Srinivasa Pipe Line Solutions</h2>
+    </div>
+    <div class="content">
+      <div class="contentbx w50">
+        <h3>Srinivasa Pipe Line Solutions</h3>
+        <p>Srinivasa Pipeline Solutions was established in 2020 with the primary aim of providing Best Product Services to the Plumbing Sectors in India.
+          SPS is the Exclusive Distributors of Ajay Pipes for Karnataka and we have a well-built Dealer Network across the State. We so aspire to develop a Strong Network across India by establishing Trustworthy and Reliable Dealers by maintaining a
+          Loyal Relationship with the Customers.
+          <br><br><b>SPS stands for its motto -- Our Aim, Your Satisfaction</b></p>
+      </div>
+      <div class="w50">
+        <img src="../images/pipes.png" alt="pipes">
+      </div>
+    </div>
+  </section>
+  <hr class="sub-border">
+  <section class="about2">
+    <div class="content">
+      <div class="contentbx w50">
+        <h3>Why Srinivasa Pipe Line Solutions</h3>
+        <p>We, at Srinivasa Pipe Line Solution, provide quality plumbing products and services from Ajay Pipes a 50-year-old manufacturing organization and one of the oldest UPVC Pipe ISI license holder.
+          We have around 800+ products from which a customer can choose from. We as an organization try and bring together potential and trustworthy dealers across Karnataka to make sure that the best quality
+          of products with exceptional service is rendered to our customers. We have a great team, that has come together to achieve a common goal that is Good Customer Relationship. We are also working on connecting
+          to more dealers across India to increase the easy availability of all our products and thereby trying towards extending the dealership territory of Srinivasa Pipe Line Solutions throughout India.</p>
+      </div>
+      <div class="w50">
+        <img src="../images/greenline_upvc.png" alt="sec-pic">
+      </div>
+    </div>
+  </section>
+  <hr class="sub-border">
+  <section class="md">
+    <div class="content">
+      <div class="contentbx w50">
+        <h3>Leadership Team – Our MD</h3>
+        <p>Srinivasa PipeLine Solutions is managed by an Innovative and Performance-Driven Entrepreneur with a Deep Passion for Technology and Business,
+          <span><em><b>Mr. Anush Kumar R.</b></em></span> He began with the Distribution ship of Ajay Pipes over entire Karnataka, and with his good managerial skills,
+          he is able to elevate the company to greater heights.</p>
+      </div>
+      <div class="w50">
+        <img src="../images/leader.png" alt="pipes">
+      </div>
+    </div>
+  </section>
+  <hr class="sub-border">
+  <section class="mandv">
+    <div class="content">
+      <div class="heading">
+        <h2>Mission and Vision</h2>
+      </div>
+      <div class="servicesbox">
+        <img src="../images/vision.png" alt="temperature">
+        <h3>Vision</h3>
+        <p>To be regarded as the Most Honest and Reliable Company in delivering Professional
+          Plumbing Assistance to the Highest Consumer Expectations and Requirements in the Community.</p>
+      </div>
+      <div class="servicesbox">
+        <img src="../images/mission.png" alt="temperature">
+        <h3>Mission</h3>
+        <p>Provide outstanding plumbing services that in the most competent,
+          effective and consistent way meet our customer standards in the areas of service, quality and value.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="sub-footer">
+      <div class="footer-head">
+        <h5>Follow Us On</h5>
+      </div>
+      <div class="social-links">
+        <ul>
+          <li class="social-items"><a href="https://www.facebook.com/srinivasapipes" target="_blank"><i class="fab fa-facebook"></i></a></li>
+          <li class="social-items"><a href="https://www.instagram.com/srinivasa_pipes/" target="_blank"><i class="fab fa-instagram"></a></i></li>
+        </ul>
+      </div>
+      <div class="outer-footer">
+        Copyright &copy; Srinivasa Pipeline Solutions. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    window.addEventListener('scroll', function() {
+      var header = document.querySelector('header');
+      header.classList.toggle('sticky', window.scrollY > 5);
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gallery-Srinivasa Pipeline Solutions</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="icon" href="../images/tab-logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <header>
+    <nav>
+      <div class="wrapper">
+        <a href="../main/index.html"><img class="logo" src="../images/logo white-ren.png" alt="logo-img"></a>
+        <input type="radio" name="slider" id="menu-btn">
+        <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+          <li><a href="../main/index.html">Home</a></li>
+          <li>
+            <a href="#" class="desktop-item">Products</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Products</label>
+            <ul class="drop-menu">
+              <li><a href="../flowline/flowline.html">Flowline Plus (CPVC)</a></li>
+              <li><a href="../greenline/greenline.html">Greenline (UPVC)</a></li>
+              <li><a href="../drainline/drainline.html">Drainline (SWR)</a></li>
+              <li><a href="../terraline/terraline.html">Terraline (UDS)</a></li>
+              <li><a href="../column/column.html">Column Pipes</a></li>
+            </ul>
+          </li>
+          <li><a href="../gallery/gallery.html">Gallery</a></li>
+          <li><a href="../contact/contact.html">Contact Us</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <section class="banner">
+      <div class="text-box">
+        <h2>Gallery</h2>
+      </div>
+    </section>
+      <section class="coming-soon">
+        <div class="body-text">
+          <h1>Coming Soon!</h1>
+        </div>
+      </section>
+      <footer>
+        <div class="sub-footer">
+          <div class="footer-head">
+            <h5>Follow Us On</h5>
+          </div>
+          <div class="social-links">
+            <ul>
+              <li class="social-items"><a href="https://www.facebook.com/srinivasapipes" target="_blank"><i class="fab fa-facebook"></i></a></li>
+              <li class="social-items"><a href="https://www.instagram.com/srinivasa_pipes/" target="_blank"><i class="fab fa-instagram"></a></i></li>
+            </ul>
+          </div>
+          <div class="outer-footer">
+            Copyright &copy; Srinivasa Pipeline Solutions. All Rights Reserved.
+          </div>
+        </div>
+      </footer>
+  </body>
+  <script type="text/javascript">
+    window.addEventListener('scroll', function() {
+      var header = document.querySelector('header');
+      header.classList.toggle('sticky', window.scrollY > 5);
+    });
+  </script>
+</html>
