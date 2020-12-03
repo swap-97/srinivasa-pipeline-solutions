@@ -12,7 +12,7 @@ section{
 .banner{
   position: relative;
   min-height: 60vh;
-  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/products.jpg');
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/terraline-image.JPG');
   background-size: cover;
   display: flex;
   justify-content: space-between;
