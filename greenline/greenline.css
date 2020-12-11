@@ -12,7 +12,7 @@ section{
 .banner{
   position: relative;
   min-height: 60vh;
-  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/greenline-image.JPG');
+  background:linear-gradient(rgba(15, 62, 15,0.6),rgba(15, 62, 15,0.6)), url('../images/greenline-image.JPG');
   background-size: cover;
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,7 @@ header{
   transition: 0.5s;
 }
 header.sticky{
-  background: black;
+  background: #0f3e0f;
   padding: 20px 100px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
   color: black;
@@ -78,7 +78,7 @@ nav .wrapper{
 }
 .nav-links .drop-menu{
   position: absolute;
-  background: #242526;
+  background: #0f3e0f;
   width: 180px;
   line-height: 45px;
   top: 85px;
@@ -102,7 +102,7 @@ nav .wrapper{
   border-radius: 0px;
 }
 .wrapper .btn{
-  background: black;
+  background: #0f3e0f;
   border-radius: 50%;
   border: 20px 20px;
   color: #C0C0C0;
@@ -114,7 +114,7 @@ nav .wrapper{
   position: absolute;
   right: 0;
   top: 0;
-  background-color: #242526;
+  background-color: #0f3e0f;
 }
 .wrapper .btn:hover{
   transition: all 0.3s ease;
@@ -123,7 +123,7 @@ nav .wrapper{
 
 @media screen and (max-width: 970px) {
   header{
-    background: black;
+    background: #0f3e0f;
     padding: 10px 10px;
   }
 .logo{
@@ -147,7 +147,7 @@ nav .wrapper{
     max-width: 350px;
     top: 0;
     left: -100%;
-    background: #242526;
+    background: #0f3e0f;
     z-index: 1;
     display: block;
     padding: 50px 10px;
@@ -242,9 +242,20 @@ nav input{
   font-weight: 600;
   font-size: 30px;
 }
+.about2-spl{
+  background: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)), url('../images/good-quality.jpg') no-repeat fixed 100%;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  line-height: 200%;
+}
 .content{
   display: flex;
   justify-content: space-between;
+  text-align: justify;
+  line-height: 200%;
 }
 .contentbx{
   padding-right: 30px;
@@ -292,7 +303,7 @@ nav input{
 }
 .benefits .content .servicesbox{
   padding: 40px 20px;
-  background: #222;
+  background: #0f3e0f;
   color: #fff;
   max-width: 340px;
   margin: 20px;
@@ -300,7 +311,8 @@ nav input{
   transition: 0.5s;
 }
 .benefits .content .servicesbox:hover{
-  background: #2196f3;
+  background: #32cd32;
+  color: black;
 }
 .benefits .content .servicesbox img{
   max-width: 80px;
@@ -314,13 +326,13 @@ nav input{
 .box-big{
   background:#E8E8E8;
   padding: 2em;
-  box-shadow: 20px 20px 20px;
+  box-shadow: rgba(15, 62, 15) 20px 20px 20px;
   line-height: 200%;
 }
 .sub-footer{
   margin: 0;
   padding: 0;
-  background-color: #272727;
+  background-color: #28a428;
 }
 .social-links{
   width: 165px;
@@ -354,7 +366,7 @@ nav input{
   text-align: center;
   color: white;
   font-size: 18px;
-  background-color: black;
+  background-color: #0f3e0f;
 }
 @media(max-width: 991px)
 {
@@ -375,10 +387,15 @@ nav input{
     font-size: 24px;
   }
   .contentbx h3{
-    font-size: 20px;
+    font-size: 18px;
+    justify-content: center;
   }
   .content{
     flex-direction: column;
+    text-align: justify;
+    line-height: 200%;
+    justify-content: center;
+    font-size: 14px;
   }
   .w50{
     margin-bottom: 20px;

@@ -12,7 +12,7 @@ section{
 .banner{
   position: relative;
   min-height: 60vh;
-  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/column-image.JPG');
+  background:linear-gradient(rgba(80, 41, 22,0.6),rgba(80, 41, 22,0.6)), url('../images/column-image.JPG');
   background-size: cover;
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,7 @@ header{
   transition: 0.5s;
 }
 header.sticky{
-  background: black;
+  background: #502916;
   padding: 20px 100px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
   color: black;
@@ -78,7 +78,7 @@ nav .wrapper{
 }
 .nav-links .drop-menu{
   position: absolute;
-  background: #242526;
+  background: #502916;
   width: 180px;
   line-height: 45px;
   top: 85px;
@@ -102,7 +102,7 @@ nav .wrapper{
   border-radius: 0px;
 }
 .wrapper .btn{
-  background: black;
+  background: #502916;
   border-radius: 50%;
   border: 20px 20px;
   color: #C0C0C0;
@@ -114,7 +114,7 @@ nav .wrapper{
   position: absolute;
   right: 0;
   top: 0;
-  background-color: #242526;
+  background-color: #502916;
 }
 .wrapper .btn:hover{
   transition: all 0.3s ease;
@@ -123,7 +123,7 @@ nav .wrapper{
 
 @media screen and (max-width: 970px) {
   header{
-    background: black;
+    background: #502916;
     padding: 10px 10px;
   }
 .logo{
@@ -147,7 +147,7 @@ nav .wrapper{
     max-width: 350px;
     top: 0;
     left: -100%;
-    background: #242526;
+    background: #502916;
     z-index: 1;
     display: block;
     padding: 50px 10px;
@@ -246,6 +246,8 @@ nav input{
 .content{
   display: flex;
   justify-content: space-between;
+  text-align: justify;
+  line-height: 200%;
 }
 .contentbx{
   padding-right: 30px;
@@ -279,6 +281,17 @@ nav input{
   font-size: 24px;
   margin-bottom: 10px;
 }
+.margin{
+  margin: 2px 0;
+}
+.about2-spl{
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/application.jpg') fixed 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: justify;
+  line-height: 200%;
+}
 .benefits{
   background: #111;
 }
@@ -293,7 +306,7 @@ nav input{
 }
 .benefits .content .servicesbox{
   padding: 40px 20px;
-  background: #222;
+  background: #63331c;
   color: #fff;
   max-width: 340px;
   margin: 20px;
@@ -301,7 +314,7 @@ nav input{
   transition: 0.5s;
 }
 .benefits .content .servicesbox:hover{
-  background: #2196f3;
+  background: #a0522d;
 }
 .benefits .content .servicesbox img{
   max-width: 80px;
@@ -322,13 +335,13 @@ nav input{
 .box-big{
   background:#E8E8E8;
   padding: 2em;
-  box-shadow: 20px 20px 20px;
+  box-shadow:rgba(80, 41, 22) 20px 20px 20px;
   line-height: 200%;
 }
 .sub-footer{
   margin: 0;
   padding: 0;
-  background-color: #272727;
+  background-color: #8b4727;
 }
 .social-links{
   width: 165px;
@@ -362,7 +375,7 @@ nav input{
   text-align: center;
   color: white;
   font-size: 18px;
-  background-color: black;
+  background-color: #502916;
 }
 @media(max-width: 991px)
 {
@@ -382,11 +395,16 @@ nav input{
   .heading h2{
     font-size: 24px;
   }
-  .contentbx h3{
+  .about2-spl h3{
     font-size: 20px;
+    text-align: center;
   }
   .content{
     flex-direction: column;
+    text-align: justify;
+    line-height: 200%;
+    justify-content: justify;
+    font-size: 15px;
   }
   .w50{
     margin-bottom: 20px;
